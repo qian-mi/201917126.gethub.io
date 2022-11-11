@@ -1,0 +1,160 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+#container {
+    width: 99%;
+    position: relative;
+}
+
+#main,
+#footer,
+#aside1,
+#content {
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+#bg img {
+    width: 99%;
+    position: fixed;
+}
+
+#container {
+    position: relative;
+}
+
+#nav {
+    font-family: "华文彩云";
+    text-align: center;
+    background: #173152;
+}
+
+#nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 18%;
+    line-height: 40px;
+    font-size: 2em;
+    color: white;
+}
+
+#nav a:hover {
+    background: blue;
+    color: yellow;
+}
+
+#main {
+    height: 1000px;
+    width: 1425px;
+    margin:0 auto;
+}
+
+#aside1 {
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 1000px;
+    font-family: "方正舒体";
+    text-align: center;
+
+}
+
+#subcon {
+    width: 250px;
+    height: 850;
+    margin: 30px auto;
+}
+
+#aside1 img {
+    width: 250px;
+    height: 200px;
+    position: relative;
+}
+
+.image {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+    background-color: #eee;
+    box-shadow: 2px 2px 4px #aaa;
+    border-radius: 5px;
+    position: relative;
+}
+
+.right {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    background: white;
+
+}
+
+.left {
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+}
+
+#content {
+    float: left;
+    width: 800px;
+    height: 1000px;
+}
+
+#content h2 {
+    font-family: "方正舒体";
+    text-align: center;
+}
+#content h3:hover{
+    font-size:135%;
+}
+
+#content div {
+    height: 235px;
+    /* border: 1px solid; */
+    line-height: 24px;
+}
+
+table {
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #1D3F65;
+}
+
+tr:nth-child(odd) {
+    background: #1D3F65;
+}
+
+th {
+    background: #1D3F65;
+}
+
+#para {
+    width: 580px;
+    height: 235px;
+    float: right;
+}
+
+
+#footer {
+    width: 99%;
+    height: 50px;
+
+}
+
+#footer h4 {
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    left: 750px;
+}
